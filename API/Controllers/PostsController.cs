@@ -69,6 +69,11 @@ namespace API.Controllers
 
             throw new Exception("Error creating post");
         }
+        /// <summary>
+        /// PUT api/put
+        /// </summary>
+        /// <param name="request">JSON request containing one or more updated post fields</param>
+        /// <returns>An update post</returns>
         [HttpPut]
         public ActionResult<Post> Update([FromBody]Post request)
         {
