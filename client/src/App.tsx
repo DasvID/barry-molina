@@ -12,8 +12,9 @@ class App extends React.Component {
   }
 
   componentDidMount() {
-    axios.get('http://localhost:5000/api/values')
+    axios.get('http://localhost:5000/api/posts')
     .then((response) => {
+      console.log(response.data);
       this.setState({
         posts: response.data
       })
