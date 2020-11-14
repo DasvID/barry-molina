@@ -44,7 +44,7 @@ namespace API.Controllers
         }
 
         /// <summary>
-        /// POST api/post
+        /// POST api/posts
         /// </summary>
         /// <param name="request">JSON request containing post fields</param>
         /// <returns>A new post</returns>
@@ -70,7 +70,7 @@ namespace API.Controllers
             throw new Exception("Error creating post");
         }
         /// <summary>
-        /// PUT api/put
+        /// PUT api/posts
         /// </summary>
         /// <param name="request">JSON request containing one or more updated post fields</param>
         /// <returns>An update post</returns>
