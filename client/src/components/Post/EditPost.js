@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import moment from 'moment';
-import { useHistory } from 'react=router-dom';
+import { useHistory } from 'react-router-dom';
 import './styles.css';
 
 const EditPost = ({ post, onPostUpdated }) => {
